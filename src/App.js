@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import { lightTheme, darkTheme, GlobalStyles } from "./theme.js";
 import NavigationBar from "./components/NavigationBar";
-import Routes from "./Routes";
+import Routes from "./routes";
 
 import "./App.css";
 
@@ -38,7 +38,6 @@ function App() {
         Hej
         <button onClick={() => themeToggler()}></button>
       </StyledApp>{" "}
-      */
     </ThemeProvider>
   );
 }
