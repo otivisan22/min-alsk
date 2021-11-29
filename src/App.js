@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import { lightTheme, darkTheme, GlobalStyles } from "./theme.js";
 import NavigationBar from "./components/NavigationBar";
-import Routes from "./routes";
+import Routes from "./Routes";
 
 import "./App.css";
 
